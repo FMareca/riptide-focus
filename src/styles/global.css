@@ -13,5 +13,27 @@ body {
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.6rem;
   background: var(--background-primary);
+  background: linear-gradient(
+    180deg,
+    var(--background-primary) 0%,
+    var(--background-middle) 40%,
+    var(--background-light) 100%
+  );
   color: var(--primary-text);
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.formRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.2rem;
 }

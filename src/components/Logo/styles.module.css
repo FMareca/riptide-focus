@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3.2rem;
+}
+
+.logo img {
+  height: 20rem;
+  transition: all 0.3s ease;
+}
+.logo img:hover {
+  transform: scale(1.05);
+  filter: brightness(110%);
+}
