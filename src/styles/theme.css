@@ -1,4 +1,22 @@
+/* Thema padrao */
 :root {
-  --primary-color: #4caf50;
-  --secondary-color: #ff5722;
+  --background-primary: #0a1f33;
+  --background-middle: #0c243d;
+  --background-light: #0e2a47;
+
+  --primary-button-timer: #1e88e5;
+  --hover-animations-progress: #4fc3f7;
+
+  --primary-text: #f9fbfc;
+  --secondary-text: #f5ebdc;
+
+  --focus-mode: #1e88e5;
+  --short-break: #2a9d8f;
+  --long-break: #f4c430;
+  --danger: #e63946;
+
+  --info: #0ea5e9;
+  --sucess: #22c55e;
+  --warning: #eab308;
+  --error: #991b1b;
 }
