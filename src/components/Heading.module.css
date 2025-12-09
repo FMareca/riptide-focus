@@ -1,0 +1,9 @@
+.heading {
+  background: var(--primary-color);
+  font-size: 3rem;
+  color: white;
+}
+
+.orange{
+    color: var(--secondary-color);
+}
