@@ -1,0 +1,49 @@
+.inputTask {
+  width: 24rem;
+  padding: 1.2rem 1.4rem;
+
+  border: 0.2rem solid transparent;
+  border-bottom-color: var(--secondary-text);
+
+  background: transparent;
+  color: var(--primary-text);
+
+  font-size: 1.2rem;
+  text-align: center;
+
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.inputTask::placeholder {
+  color: rgba(249, 251, 252, 0.5);
+}
+
+.inputTask:focus {
+  background: rgba(255, 255, 255, 0.08);
+  border: 0.2rem solid;
+  border-color: var(--hover-animations-progress);
+  border-radius: 0.8rem;
+}
+
+.inputTask:disabled {
+  background: transparent;
+
+  color: rgba(249, 251, 252, 0.35);
+
+  border: 0.2rem solid transparent;
+  border-bottom-color: rgba(249, 251, 252, 0.15);
+
+  cursor: not-allowed;
+}
+
+.inputTask:disabled::placeholder {
+  color: rgba(249, 251, 252, 0.25);
+}
+
+.inputTask:disabled:focus {
+  background: transparent;
+  border: 0.2rem solid transparent;
+  border-bottom-color: rgba(249, 251, 252, 0.15);
+  box-shadow: none;
+}
