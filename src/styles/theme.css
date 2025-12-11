@@ -21,3 +21,12 @@
   --warning: #eab308;
   --error: #991b1b;
 }
+
+:root[data-theme='light'] {
+  --background-primary: #f4f7fb;
+  --background-middle: #eef2f6;
+  --background-light: #e7ecf2;
+
+  --primary-text: #0a1f33;
+  --secondary-text: #1a2c40;
+}

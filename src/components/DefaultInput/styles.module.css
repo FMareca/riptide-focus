@@ -16,7 +16,8 @@
 }
 
 .inputTask::placeholder {
-  color: rgba(249, 251, 252, 0.5);
+  color: var(--primary-text);
+  opacity: 0.7;
 }
 
 .inputTask:focus {
