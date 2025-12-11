@@ -14,7 +14,7 @@ body {
   font-size: 1.6rem;
   background: var(--background-primary);
   background: linear-gradient(
-    180deg,
+    to bottom right,
     var(--background-primary) 0%,
     var(--background-middle) 40%,
     var(--background-light) 100%

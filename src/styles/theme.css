@@ -24,8 +24,8 @@
 
 :root[data-theme='light'] {
   --background-primary: #f4f7fb;
-  --background-middle: #eef2f6;
-  --background-light: #e7ecf2;
+  --background-middle: #ffe7d8;
+  --background-light: #ffd8c2;
 
   --primary-text: #0a1f33;
   --secondary-text: #1a2c40;
