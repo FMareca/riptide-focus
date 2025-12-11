@@ -5,7 +5,7 @@
   --background-light: #0e2a47;
 
   --primary-button-timer: #1e88e5;
-  --secondary-button-timer: #F9A825;
+  --secondary-button-timer: #f9a825;
   --hover-animations-progress: #4fc3f7;
 
   --primary-text: #f9fbfc;
@@ -29,4 +29,6 @@
 
   --primary-text: #0a1f33;
   --secondary-text: #1a2c40;
+
+  --hover-animations-progress: #f75e25;
 }
